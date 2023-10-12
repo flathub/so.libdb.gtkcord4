@@ -38,6 +38,11 @@ modules:
         url: https://github.com/diamondburned/gtkcord4/archive/refs/tags/v0.0.13.tar.gz
         sha256: 3697c0900e72e60421d75283ca87e5703603eaeaac9d064adaa5dcd09c0c944d
 
+      # temporary fix until app id is changed upstream
+      - type: patch
+        path: appid.patch
+
+      # versions based on official github releases
       - type: patch
         path: metainfo.patch
 
