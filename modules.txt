@@ -66,7 +66,7 @@ github.com/diamondburned/arikawa/v3/utils/json/option
 github.com/diamondburned/arikawa/v3/utils/sendpart
 github.com/diamondburned/arikawa/v3/utils/ws
 github.com/diamondburned/arikawa/v3/utils/ws/ophandler
-# github.com/diamondburned/chatkit v0.0.0-20230825092457-0a896b3e0bc0
+# github.com/diamondburned/chatkit v0.0.0-20230904043742-66a46d3d2a92
 ## explicit; go 1.18
 github.com/diamondburned/chatkit/components/author
 github.com/diamondburned/chatkit/components/autocomplete
@@ -103,7 +103,7 @@ github.com/diamondburned/gotk4/pkg/graphene
 github.com/diamondburned/gotk4/pkg/gsk/v4
 github.com/diamondburned/gotk4/pkg/gtk/v4
 github.com/diamondburned/gotk4/pkg/pango
-# github.com/diamondburned/gotkit v0.0.0-20230823074854-3658c907eb6b
+# github.com/diamondburned/gotkit v0.0.0-20230930214311-f664ea5c2236
 ## explicit; go 1.18
 github.com/diamondburned/gotkit/app
 github.com/diamondburned/gotkit/app/locale
@@ -125,7 +125,7 @@ github.com/diamondburned/gotkit/gtkutil/textutil
 github.com/diamondburned/gotkit/utils/cachegc
 github.com/diamondburned/gotkit/utils/config
 github.com/diamondburned/gotkit/utils/osutil
-# github.com/diamondburned/ningen/v3 v3.0.1-0.20230825235203-736ded6dc985
+# github.com/diamondburned/ningen/v3 v3.0.1-0.20230908225032-f3dbe02c7c8d
 ## explicit; go 1.18
 github.com/diamondburned/ningen/v3
 github.com/diamondburned/ningen/v3/discordmd
@@ -163,7 +163,7 @@ github.com/gorilla/websocket
 github.com/ianlancetaylor/cgosymbolizer
 # github.com/kylelemons/godebug v1.1.0
 ## explicit; go 1.11
-# github.com/leonelquinteros/gotext v1.5.3-0.20230509185024-db315c34509b => github.com/diamondburned/gotext v0.0.0-20230529225615-4e200827134c
+# github.com/leonelquinteros/gotext v1.5.3-0.20230829162019-37f474cfb069
 ## explicit; go 1.13
 github.com/leonelquinteros/gotext
 github.com/leonelquinteros/gotext/plurals
@@ -179,7 +179,7 @@ github.com/twmb/murmur3
 # github.com/yalue/merged_fs v1.2.3
 ## explicit; go 1.16
 github.com/yalue/merged_fs
-# github.com/yuin/goldmark v1.4.13
+# github.com/yuin/goldmark v1.5.6
 ## explicit; go 1.18
 github.com/yuin/goldmark
 github.com/yuin/goldmark/ast
@@ -220,4 +220,3 @@ golang.org/x/text/language
 # golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 ## explicit
 golang.org/x/time/rate
-# github.com/leonelquinteros/gotext => github.com/diamondburned/gotext v0.0.0-20230529225615-4e200827134c

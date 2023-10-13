@@ -1,21 +1,8 @@
-diff --git a/internal/icons/pack-icons/main.go b/internal/icons/pack-icons/main.go
-index 955a15b..7f195f0 100644
---- a/internal/icons/pack-icons/main.go
-+++ b/internal/icons/pack-icons/main.go
-@@ -19,7 +19,7 @@ import (
- )
- 
- const rev = "3912bae"
--const prefix = "/xyz/diamondb/gtkcord4" // xyz.diamondb.gtkcord4
-+const prefix = "/so/libdb/gtkcord4" // so.libdb.gtkcord4
- 
- var (
- 	output = "."
 diff --git a/main.go b/main.go
-index 231267d..1882920 100644
+index b220a2e..077d490 100644
 --- a/main.go
 +++ b/main.go
-@@ -43,7 +43,7 @@ var _ = cssutil.WriteCSS(`
+@@ -44,7 +44,7 @@ var _ = cssutil.WriteCSS(`
  
  func main() {
  	m := manager{}
