@@ -35,12 +35,8 @@ modules:
       - install -Dm644 $FLATPAK_ID.metainfo.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/diamondburned/gtkcord4/archive/refs/tags/v0.0.13.tar.gz
-        sha256: 3697c0900e72e60421d75283ca87e5703603eaeaac9d064adaa5dcd09c0c944d
-
-      # temporary fix until app id is changed upstream
-      - type: patch
-        path: appid.patch
+        url: https://github.com/diamondburned/gtkcord4/archive/refs/tags/v0.0.14.tar.gz
+        sha256: 9e4f0de7cbe462cc3b74361f0590578d35d5436fb91793cb8351086b5d80ef26
 
       # versions based on official github releases
       - type: patch

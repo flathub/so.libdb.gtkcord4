@@ -1,5 +1,5 @@
 diff --git a/so.libdb.gtkcord4.metainfo.xml b/so.libdb.gtkcord4.metainfo.xml
-index bab12f5..a774fd3 100644
+index bab12f5..3d98781 100644
 --- a/so.libdb.gtkcord4.metainfo.xml
 +++ b/so.libdb.gtkcord4.metainfo.xml
 @@ -17,7 +17,7 @@
@@ -7,14 +7,17 @@ index bab12f5..a774fd3 100644
    <screenshots>
      <screenshot type="default">
 -      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/v0.0.12/.github/screenshot4.png</image>
-+      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/v0.0.13/.github/screenshot4.png</image>
++      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/v0.0.14/.github/screenshot4.png</image>
      </screenshot>
    </screenshots>
  
-@@ -29,6 +29,9 @@
+@@ -29,6 +29,12 @@
      <content_attribute id="money-purchasing">intense</content_attribute>
    </content_rating>
    <releases>
++    <release version="v0.0.14" date="2023-10-07">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.14</url>
++    </release>
 +    <release version="v0.0.13" date="2023-10-04">
 +      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.13</url>
 +    </release>
