@@ -35,8 +35,8 @@ modules:
       - install -Dm644 $FLATPAK_ID.metainfo.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/diamondburned/gtkcord4/archive/refs/tags/v0.0.15.tar.gz
-        sha256: 75cfaab200438e7cbf96a365deaea8ab7b2a6aac1cc73e2fee88cbc8cee1f1e2
+        url: https://github.com/diamondburned/gtkcord4/archive/refs/tags/v0.0.17.tar.gz
+        sha256: 4f21aeaff71c7a6249c5b9127962571467b9388f9e77d418284647e718531951
 
       # versions based on official github releases
       - type: patch
@@ -54,40 +54,40 @@ modules:
         sha256: c226baea81d59d525fc94dc1c60dac111cac0aa19784044abeb3d188643c6c20
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/arikawa/v3/@v/v3.3.1-0.20230609054540-4224b93c4e01.zip
+        url: https://proxy.golang.org/github.com/diamondburned/arikawa/v3/@v/v3.3.5-0.20231228032010-9809321f6ff4.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/arikawa/v3
-        sha256: 5a1eb3a9961748da6c978bfc60d046a941d014cb964d41f6dbeb307fe49116c2
+        sha256: e38f9f49eb2b3c68144fcd63430613c1b7f6cac88024c0ad07bb4735df1af88c
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/chatkit/@v/v0.0.0-20230904043742-66a46d3d2a92.zip
+        url: https://proxy.golang.org/github.com/diamondburned/chatkit/@v/v0.0.0-20240106113153-4e4c83fb3925.zip
         strip-components: 3
         dest: vendor/github.com/diamondburned/chatkit
-        sha256: 9525d38ff165be213de1aa9331a3a28c774928ede7fc263ceb5bd03c4a1fe156
+        sha256: dbcb2a2f147bd49979651e5c753c68a0c8597d43d10cb333b99283287bd0d9a8
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotk4-adwaita/pkg/@v/v0.0.0-20230307050941-20a05fa3a9df.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotk4-adwaita/pkg/@v/v0.0.0-20231226035729-503b3cb0406c.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/gotk4-adwaita/pkg
-        sha256: 315f297e478aeec091667bf1b3423a84eccd634d970744f8dc2f4f316c7485ed
+        sha256: 526d3f95d27a9e57c6eeeba24cdbac4c1b143b7005904ce2e85b39508c3f2614
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotk4/pkg/@v/v0.0.6-0.20230825053034-ad325703aa2e.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotk4/pkg/@v/v0.0.6-0.20231117083507-eb41da62b149.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/gotk4/pkg
-        sha256: 5968b2d91e69df620864981fd89215e3ccf12b33cf6582408538a21fba4746eb
+        sha256: a491d4dd2e51c2d35e1943147cc78c303d65552ee67430fa430a66d0b8bdd23b
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/gotkit/@v/v0.0.0-20230930214311-f664ea5c2236.zip
+        url: https://proxy.golang.org/github.com/diamondburned/gotkit/@v/v0.0.0-20240103071019-0395decac74f.zip
         strip-components: 3
         dest: vendor/github.com/diamondburned/gotkit
-        sha256: f2adeb9752754b76bc76ff0b90a33e89d6e31751aba6f76243499552a72b731e
+        sha256: bb873cc86b0e1d4d5e7474167912b99f1634abbf6cd16857110d309d6c5f4923
 
       - type: archive
-        url: https://proxy.golang.org/github.com/diamondburned/ningen/v3/@v/v3.0.1-0.20230908225032-f3dbe02c7c8d.zip
+        url: https://proxy.golang.org/github.com/diamondburned/ningen/v3/@v/v3.0.1-0.20240102085723-970026175e1a.zip
         strip-components: 4
         dest: vendor/github.com/diamondburned/ningen/v3
-        sha256: 4653c75b2ae6fbb1a793a81c400a5df47bb370077029aea36739a067fdfeb415
+        sha256: a759492266833f350873811c84c9f90c3fdb3aafc21e1a2a9c9ae9ab36b7e4c9
 
       - type: archive
         url: https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.0.zip
@@ -168,12 +168,6 @@ modules:
         sha256: d0d1728deaa06dac190bf4964c9c6395923403eae337cb3305d6dda18ef07337
 
       - type: archive
-        url: https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.zip
-        strip-components: 3
-        dest: vendor/github.com/kylelemons/godebug
-        sha256: dbbd0ce8c2f4932bb03704d73026b21af12bd68d5b8f4798dbf10a487a2b6d13
-
-      - type: archive
         url: https://proxy.golang.org/github.com/leonelquinteros/gotext/@v/v1.5.3-0.20230829162019-37f474cfb069.zip
         strip-components: 3
         dest: vendor/github.com/leonelquinteros/gotext
@@ -210,10 +204,10 @@ modules:
         sha256: 483c9b29d12567e79622b59156086e0ed92b7cc3537b3cc26b6e13d2269870f5
 
       - type: archive
-        url: https://proxy.golang.org/golang.org/x/crypto/@v/v0.1.0.zip
+        url: https://proxy.golang.org/golang.org/x/crypto/@v/v0.17.0.zip
         strip-components: 3
         dest: vendor/golang.org/x/crypto
-        sha256: d3931b10979096640867809147e8c7d0f1c8bc0dd3d400947e01c29eefa6898e
+        sha256: 97ea91df712ac1ca39c122480489be532b437bf4aeb5d781465cb1cf39824083
 
       - type: archive
         url: https://proxy.golang.org/golang.org/x/image/@v/v0.0.0-20220902085622-e7cb96979f69.zip
@@ -222,16 +216,16 @@ modules:
         sha256: 0169cad235a87dc82f3b24303bcc7f1c25b9d4993d9a503ce7310815dba86f0f
 
       - type: archive
-        url: https://proxy.golang.org/golang.org/x/sync/@v/v0.0.0-20220722155255-886fb9371eb4.zip
+        url: https://proxy.golang.org/golang.org/x/sync/@v/v0.1.0.zip
         strip-components: 3
         dest: vendor/golang.org/x/sync
-        sha256: 39d2431ae1db11be34b4012b719e7bcec1572006a122d44509da038a5b498ff1
+        sha256: f510bec6009e19882d19953e7273137d34df86c65949345d72f123a255c2ecd2
 
       - type: archive
-        url: https://proxy.golang.org/golang.org/x/text/@v/v0.4.0.zip
+        url: https://proxy.golang.org/golang.org/x/text/@v/v0.14.0.zip
         strip-components: 3
         dest: vendor/golang.org/x/text
-        sha256: 16af01ae1aacbb027662d39662bd52e92e288ba4ce104ea0116534a81dfd3c30
+        sha256: b9814897e0e09cd576a7a013f066c7db537a3d538d2e0f60f0caee9bc1b3f4af
 
       - type: archive
         url: https://proxy.golang.org/golang.org/x/time/@v/v0.0.0-20210723032227-1f47c861a9ac.zip
