@@ -1,23 +1,54 @@
 diff --git a/so.libdb.gtkcord4.metainfo.xml b/so.libdb.gtkcord4.metainfo.xml
-index 3d98781..d2232d2 100644
+index 3d98781..c301c91 100644
 --- a/so.libdb.gtkcord4.metainfo.xml
 +++ b/so.libdb.gtkcord4.metainfo.xml
+@@ -6,7 +6,7 @@
+   <summary>GTK4 Discord client in Go</summary>
+ 
+   <metadata_license>CC0-1.0</metadata_license>
+-  <project_license>AGPL-3.0-only</project_license>
++  <project_license>GPL-3.0+</project_license>
+ 
+   <description>
+     <p>
 @@ -17,7 +17,7 @@
    <launchable type="desktop-id">so.libdb.gtkcord4.desktop</launchable>
    <screenshots>
      <screenshot type="default">
 -      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/v0.0.14/.github/screenshot4.png</image>
-+      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/v0.0.15/.github/screenshot4.png</image>
++      <image>https://raw.githubusercontent.com/diamondburned/gtkcord4/v0.0.17/.github/screenshot4.png</image>
      </screenshot>
    </screenshots>
  
-@@ -29,6 +29,9 @@
+@@ -29,6 +29,21 @@
      <content_attribute id="money-purchasing">intense</content_attribute>
    </content_rating>
    <releases>
++    <release version="v0.0.17" date="2024-01-06">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.17</url>
++    </release>
++    <release version="v0.0.16-1" date="2023-11-25">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.16-1</url>
++    </release>
++    <release version="v0.0.16" date="2023-11-25">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.16</url>
++    </release>
++    <release version="v0.0.15-1" date="2023-10-28">
++      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.15-1</url>
++    </release>
 +    <release version="v0.0.15" date="2023-10-27">
 +      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.15</url>
 +    </release>
      <release version="v0.0.14" date="2023-10-07">
        <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.14</url>
      </release>
+@@ -53,9 +68,6 @@
+     <release version="v0.0.7" date="2023-02-01">
+       <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.7</url>
+     </release>
+-    <release version="v0.0.6" date="2022-11-11">
+-      <url>https://github.com/diamondburned/gtkcord4/releases/tag/v0.0.6</url>
+-    </release>
+   </releases>
+ 
+   <url type="homepage">https://github.com/diamondburned/gtkcord4</url>
