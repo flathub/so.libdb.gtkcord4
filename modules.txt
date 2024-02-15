@@ -1,3 +1,6 @@
+# github.com/KarpelesLab/weak v0.1.1
+## explicit; go 1.18
+github.com/KarpelesLab/weak
 # github.com/alecthomas/chroma v0.10.0
 ## explicit; go 1.13
 github.com/alecthomas/chroma
@@ -81,7 +84,7 @@ github.com/diamondburned/chatkit/md/mdrender
 # github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20231226035729-503b3cb0406c
 ## explicit; go 1.18
 github.com/diamondburned/gotk4-adwaita/pkg/adw
-# github.com/diamondburned/gotk4/pkg v0.1.1-0.20240206031134-7966a062d938
+# github.com/diamondburned/gotk4/pkg v0.1.1-0.20240210085006-e5bfe6119990
 ## explicit; go 1.18
 github.com/diamondburned/gotk4/pkg/cairo
 github.com/diamondburned/gotk4/pkg/cairo/swizzle
